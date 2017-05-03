@@ -18,11 +18,11 @@
       data-is-mobile="false"
       data-supports-vr="false"
       data-supports-touch="false"
-      data-site-base-url="https://cvan.aframe.io"
+      data-site-base-url="https://aframe.cvan.io"
       data-site-root-path="/"
-      data-site-home-url="https://cvan.aframe.io/"
-      data-lib-home-url="https://cvan.aframe.io"
-      data-lib-examples-url="https://cvan.aframe.io/aframe/examples"
+      data-site-home-url="https://aframe.cvan.io/"
+      data-lib-home-url="https://aframe.cvan.io"
+      data-lib-examples-url="https://aframe.cvan.io/aframe/examples"
       data-title="{title} | A-Frame"
       data-is-spa="false"
       data-ga-id="UA-24056643-4"
@@ -40,29 +40,29 @@
     <meta name="description" content="">
     <meta name="keywords" content="webvr,webvr framework,webvr demos,webvr sites,vr javascript,vr framework">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="canonical" href="https://cvan.aframe.io">
+    <link rel="canonical" href="https://aframe.cvan.io">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,600" rel="stylesheet">
     <meta property="fb:app_id" content="1535794316743373">
     <meta property="og:title" content="Asset Management System – A-Frame">
     <meta property="og:site_name" content="A-Frame">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://cvan.aframe.io">
+    <meta property="og:url" content="https://aframe.cvan.io">
     <meta property="og:description" content="">
-    <meta property="og:image" content="https://cvan.aframe.io/images/card.jpg?v2">
-    <meta property="og:image:secure_url" content="https://cvan.aframe.io/images/card.jpg?v2">
+    <meta property="og:image" content="https://aframe.cvan.io/images/card.jpg?v2">
+    <meta property="og:image:secure_url" content="https://aframe.cvan.io/images/card.jpg?v2">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@aframevr">
     <meta name="twitter:creator" content="@aframevr">
     <meta name="twitter:title" content="Asset Management System – A-Frame">
     <meta name="twitter:description" content="">
-    <meta name="twitter:image" content="https://cvan.aframe.io/images/card.jpg?v2">
+    <meta name="twitter:image" content="https://aframe.cvan.io/images/card.jpg?v2">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="theme-color" content="black">
-    <link rel="icon" sizes="192x192" href="https://cvan.aframe.io/images/aframe-logo-192.png">
+    <link rel="icon" sizes="192x192" href="https://aframe.cvan.io/images/aframe-logo-192.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <link rel="apple-touch-icon" href="https://cvan.aframe.io/images/aframe-logo-152.png">
-    <link rel="alternate" type="application/rss+xml" title="Feed" href="https://cvan.aframe.io/feed.xml">
+    <link rel="apple-touch-icon" href="https://aframe.cvan.io/images/aframe-logo-152.png">
+    <link rel="alternate" type="application/rss+xml" title="Feed" href="https://aframe.cvan.io/feed.xml">
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -755,7 +755,7 @@
 <figure class="highlight html"><table><tr><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">a-scene</span>&gt;</span></div><div class="line">  <span class="comment">&lt;!-- Asset management system. --&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">a-assets</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">a-asset-item</span> <span class="attr">id</span>=<span class="string">"horse-obj"</span> <span class="attr">src</span>=<span class="string">"horse.obj&gt;&lt;/a-asset-item&gt;</span></span></div><div class="line">    &lt;a-asset-item id="<span class="attr">horse-mtl</span>" <span class="attr">src</span>=<span class="string">"horse.mtl&gt;&lt;/a-asset-item&gt;</span></div><div class="line"></div><div class="line">    &lt;a-mixin id="<span class="attr">giant</span>" <span class="attr">scale</span>=<span class="string">"5 5 5"</span>&gt;<span class="tag">&lt;/<span class="name">a-mixin</span>&gt;</span></div><div class="line"></div><div class="line">    <span class="tag">&lt;<span class="name">audio</span> <span class="attr">src</span>=<span class="string">"neigh.mp3"</span>&gt;</span><span class="tag">&lt;/<span class="name">a-mixin</span>&gt;</span></div><div class="line"></div><div class="line">    <span class="tag">&lt;<span class="name">img</span> <span class="attr">id</span>=<span class="string">"advertisement"</span> <span class="attr">src</span>=<span class="string">"ad.png"</span>&gt;</span></div><div class="line"></div><div class="line">    <span class="tag">&lt;<span class="name">video</span> <span class="attr">id</span>=<span class="string">"kentucky-derby"</span> <span class="attr">src</span>=<span class="string">"derby.mp4&gt;</span></span></div><div class="line">  &lt;/a-assets&gt;</div><div class="line"></div><div class="line">  &lt;!-- Scene. --&gt;</div><div class="line">  &lt;a-entity mixin="<span class="attr">giant</span>" <span class="attr">obj-model</span>=<span class="string">"obj: #horse-obj; mtl: #horse-mtl"</span>&gt;<span class="tag">&lt;/<span class="name">a-entity</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">a-entity</span> <span class="attr">geometry</span>=<span class="string">"primitive: plane"</span> <span class="attr">material</span>=<span class="string">"src: #kentucky-derby"</span>&gt;</span><span class="tag">&lt;/<span class="name">a-entity</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">a-entity</span> <span class="attr">geometry</span>=<span class="string">"primitive: plane"</span> <span class="attr">material</span>=<span class="string">"src: #advertisement&gt;&lt;/a-entity&gt;</span></span></div><div class="line">&lt;/a-scene&gt;</div></pre></td></tr></table></figure>
 <p>Then the scene will wait for all of the assets for rendering.</p>
 <h2 id="cross-origin"><a href="#cross-origin" class="headerlink" title="Cross-Origin"></a>Cross-Origin</h2><p>Loading assets from a different domain requires <a href="https://en.wikipedia.org/wiki/Cross-origin_resource_sharing" target="_blank" rel="external">cross-origin resource sharing (CORS) headers</a>. Else we have to serve the asset ourselves.</p>
-<p>For some options, all resources hosted on <a href="https://pages.github.com/" target="_blank" rel="external">GitHub Pages</a> are served with CORS headers. We highly recommend GitHub Pages as a simple deployment platform. Alternatively, we could also upload assets using the <a href="https://cvan.aframe.io/aframe/examples/_uploader/">A-Frame + Uploadcare Uploader</a>, a service that will help serve our assets CORS’d.</p>
+<p>For some options, all resources hosted on <a href="https://pages.github.com/" target="_blank" rel="external">GitHub Pages</a> are served with CORS headers. We highly recommend GitHub Pages as a simple deployment platform. Alternatively, we could also upload assets using the <a href="https://aframe.cvan.io/aframe/examples/_uploader/">A-Frame + Uploadcare Uploader</a>, a service that will help serve our assets CORS’d.</p>
 <p>Given that CORS headers are set, if fetching a texture from a different origin or domain such as from an image hosting service or a CDN, then we should specify the <code>crossorigin</code> attribute on the <code>&lt;img&gt;</code>, <code>&lt;video&gt;</code>, or <code>&lt;canvas&gt;</code> element used to create a texture. [CORS][corsimage] security mechanisms in the browser generally disallow reading raw data from media elements from other domains if not explicitly allowed:</p>
 <figure class="highlight html"><table><tr><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">a-scene</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">a-assets</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">video</span> <span class="attr">id</span>=<span class="string">"cdn-video"</span> <span class="attr">src</span>=<span class="string">"http://somecdn/somevideo.mp4"</span> <span class="attr">crossorigin</span>=<span class="string">"anonymous"</span>&gt;</span></div><div class="line">  <span class="tag">&lt;/<span class="name">a-assets</span>&gt;</span></div><div class="line"></div><div class="line">  <span class="tag">&lt;<span class="name">a-entity</span> <span class="attr">geometry</span>=<span class="string">"primitive: box"</span> <span class="attr">material</span>=<span class="string">"src: #cdn-video"</span>&gt;</span><span class="tag">&lt;/<span class="name">a-entity</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">a-scene</span>&gt;</span></div></pre></td></tr></table></figure>
 <p>Caveat is that currently, Safari and Chromium do not seem to respect the <code>crossorigin</code> attribute or property, whereas Firefox and Chrome do.</p>
